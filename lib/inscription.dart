@@ -121,7 +121,7 @@ class _InscriptionState extends State<Inscription> {
                 ElevatedButton(
                     onPressed: () {}, child: Center(child: Text("S'inscrire"))),
                 ElevatedButton(
-                    onPressed: () {}, child: Center(child: Text("Annuler")))
+                    onPressed: () {   Navigator.pop(context);}, child: Center(child: Text("Annuler")))
               ],
             ),
           )
